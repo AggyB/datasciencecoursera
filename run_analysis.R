@@ -80,6 +80,9 @@ names(new_data) <- sapply(names(new_data),gsub,pattern= "-",replacement="_") # r
 names(new_data) <- sapply(names(new_data),gsub,pattern= "()",replacement="") # replace "-" with nothing
 ---------------------------------------------------------------------------------------------------------------------------------- 
 # SUMMARY
+summary(new_data)
+---------------------------------------------------------------------------------------------------------------------------------- 
+# OUTPUT
 tidy_data <- new_data
 write.table(tidy_data,"tidy_data.txt",sep="/t")
 
