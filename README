@@ -1,0 +1,6 @@
+*Readme file for run_analysis.R
+
+*the scrip does NOT assume that data is already available in the current working directory
+*the script downloads and unzips the data to whatever the current directory is
+*subject and activity columns have been added as the last two columns of the data set
+*variables have been renamed according to the recommended safe naming conventions at Coursera “Getting and cleaning Data” course: lowercase, no dash, no parenthesis. 
