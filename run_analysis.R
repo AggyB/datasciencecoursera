@@ -82,6 +82,6 @@ names(new_data) <- sapply(names(new_data),gsub,pattern= "()",replacement="") # r
 # SUMMARY
 tidy_data <- new_data
 write.table(tidy_data,"tidy_data.txt",sep="/t")
-  summary(new_data)
+
   
 
